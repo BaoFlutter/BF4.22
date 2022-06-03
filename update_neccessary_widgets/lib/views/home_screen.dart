@@ -80,7 +80,7 @@ class _HomeScreenState extends State<HomeScreen> {
                    // setState(() {
                     // Bước 2. Cập nhật Value
                     averageMarkStrNotifier!.value = ((double.parse(toanController!.text) + double.parse(vanController!.text) + double.parse(anhController!.text))/3).toStringAsFixed(1);
-                    gradeStrNotifier!.value =  getGrade(mark: double.parse( averageMarkStrNotifier!.value));
+                   // gradeStrNotifier!.value =  getGrade(mark: double.parse( averageMarkStrNotifier!.value));
 
                    // });
 
@@ -96,21 +96,14 @@ class _HomeScreenState extends State<HomeScreen> {
                   firstContent: value,
                   secondLabel: grade+ ": ",
                   secondContent: "Chưa xác định" ),
-
                 ),
-             ValueListenableBuilder<String>(
-            valueListenable: gradeStrNotifier,
-            builder: (context, String value, Widget? child ) => InformationCard(
-                firstLable: averageMark + ": ",
-                firstContent: value,
-                secondLabel: grade+ ": ",
-                secondContent: "Chưa xác định" ),
+
 
 
             TextButton(
                   onPressed: (){
-                    var route = MaterialPageRoute(builder: (context) => SecondScreen(averageMarkStr: averageMarkStr, gradeStr: gradeStr));
-                    Navigator.push(context, route);
+                    //var route = MaterialPageRoute(builder: (context) => SecondScreen(averageMarkStr: averageMarkStr, gradeStr: gradeStr));
+                    //Navigator.push(context, route);
                   },
                   child: Text(
                       showInfor
