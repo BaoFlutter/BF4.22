@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "148910332382",
+    "project_id": "bf422chat",
+    "storage_bucket": "bf422chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148910332382:android:61b8677097bdbb89b9a54f",
+        "android_client_info": {
+          "package_name": "com.baoflutter.bf422chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148910332382-ll1apj2gkec9gqio17c3a6nij810ndev.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.baoflutter.bf422chat",
+            "certificate_hash": "3d57b9423f94a184961bbe6e80d55d7da544e535"
+          }
+        },
+        {
+          "client_id": "148910332382-b97ei4p3ppbk3hludju8169kh0j02dfm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNCA0dkTD8fRCpqxc2En9zihhxlFHOBi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148910332382-b97ei4p3ppbk3hludju8169kh0j02dfm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
